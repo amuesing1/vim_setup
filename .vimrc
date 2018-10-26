@@ -1,15 +1,3 @@
-
-" An example for a vimrc file.
-"
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last change:	2016 Mar 25
-"
-" To use it, copy it to
-"     for Unix and OS/2:  ~/.vimrc
-"	      for Amiga:  s:.vimrc
-"  for MS-DOS and Win32:  $VIM\_vimrc
-"	    for OpenVMS:  sys$login:.vimrc
-
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
   finish
@@ -156,7 +144,8 @@ colorscheme minimalist " change the colorscheme
 let g:ycm_global_ycm_extra_conf = '.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py' " Enable YouCompleteMe
 "autocmd vimenter * NERDTree " start NERDTree automatically
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif " Close NERDTree if it is the only thing open
-map <C-n> :NERDTreeToggle<CR> " enable NERDTree toggle button
+map <C-t> :NERDTreeToggle<CR> " enable NERDTree toggle button
+set laststatus=2
 " The matchit plugin makes the % command work better, but it is not backwards
 " compatible.
 packadd matchit

@@ -12,6 +12,8 @@ sudo git clone https://github.com/scrooloose/nerdcommenter.git
 sudo git clone https://github.com/scrooloose/nerdtree.git
 sudo git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git
 sudo git clone https://github.com/Valloric/YouCompleteMe.git
+sudo git clone https://github.com/terryma/vim-multiple-cursors.git
+sudo git clone https://github.com/itchyny/lightline.vim.git
 sudo apt-get install build-essential cmake
 sudo apt-get install python-dev python3-dev
 cd YouCompleteMe/
