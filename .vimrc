@@ -149,3 +149,4 @@ set laststatus=2
 " The matchit plugin makes the % command work better, but it is not backwards
 " compatible.
 packadd matchit
+set foldmethod=indent
