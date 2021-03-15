@@ -1,6 +1,5 @@
-sudo apt-get install vim
-mv .vimrc ~/
-cd /usr/share/vim/vim81/
+mkdir ~/.vim
+cd ~/.vim
 mkdir autoload
 git clone https://github.com/tpope/vim-pathogen.git
 mv vim-pathogen/autoload/pathogen.vim autoload/
